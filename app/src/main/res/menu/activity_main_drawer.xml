@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_camera"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="مقدمه" />
+        <item
+            android:id="@+id/nav_whaitisvirus"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ویروس چیست؟" />
+        <item
+            android:id="@+id/nav_importent"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="نکات مهم در مقابله با ویروسها" />
+        <item
+            android:id="@+id/nav_types"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="انواع ویروسها و طرز کار آنها" />
+        <item
+            android:id="@+id/nav_software"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="نرم افزارهای سودمند برای مقابله با ویروسها" />
+        <item
+            android:id="@+id/nav_permissions"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="دسترسی ها (Permissions) چیستند؟" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="درباره ما" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="تماس با ما" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="خروج" />
+    </group>
+
+
+</menu>

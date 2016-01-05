@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zaferani.androidsecurity.Avg">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/linearLayout2">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:id="@+id/imageView2"
+                        android:background="@drawable/lookout" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Lookout Security &amp; Antivirus"
+                        android:id="@+id/txt_avast_Icon"
+                        android:textSize="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/linearLayout2"
+                    android:layout_toEndOf="@+id/linearLayout2"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/linearLayout3">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:id="@+id/horizontalScrollView"
+                        android:scrollIndicators="start|end">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scrollIndicators="bottom">
+
+                            <ImageView
+                                android:layout_width="108dp"
+                                android:layout_height="180dp"
+                                android:id="@+id/imageView5"
+                                android:background="@drawable/lookout1s"
+                                android:clickable="true"
+                                android:nestedScrollingEnabled="true" />
+
+                            <ImageView
+                                android:layout_width="108dp"
+                                android:layout_height="180dp"
+                                android:id="@+id/imageView3"
+                                android:layout_gravity="center_vertical"
+                                android:background="@drawable/lookout2s"
+                                android:layout_marginLeft="3dp"
+                                android:layout_marginRight="3dp" />
+
+                            <ImageView
+                                android:layout_width="108dp"
+                                android:layout_height="180dp"
+                                android:id="@+id/imageView4"
+                                android:background="@drawable/lookout3s"
+                                android:layout_marginRight="3dp" />
+
+                            <ImageView
+                                android:layout_width="108dp"
+                                android:layout_height="180dp"
+                                android:id="@+id/imageView6"
+                                android:background="@drawable/lookout4s"
+                                android:clickable="true"
+                                android:layout_marginRight="3dp" />
+
+                            <ImageView
+                                android:layout_width="108dp"
+                                android:layout_height="180dp"
+                                android:id="@+id/imageView7"
+                                android:background="@drawable/lookout5s"
+                                android:layout_marginRight="3dp" />
+
+                            <ImageView
+                                android:layout_width="108dp"
+                                android:layout_height="180dp"
+                                android:id="@+id/imageView8"
+                                android:background="@drawable/lookout6s"
+                                android:layout_marginRight="3dp" />
+
+                            <ImageView
+                                android:layout_width="108dp"
+                                android:layout_height="180dp"
+                                android:id="@+id/imageView13"
+                                android:background="@drawable/lookout7s"
+                                android:layout_marginRight="3dp" />
+
+                            <ImageView
+                                android:layout_width="108dp"
+                                android:layout_height="180dp"
+                                android:id="@+id/imageView14"
+                                android:background="@drawable/lookout8s" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/scrollView2"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/txt_avast_info"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/lookout_info"
+                        android:textColor="#a5000000" />
+                </ScrollView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/download"
+                    android:id="@+id/textView3"
+                    android:layout_below="@+id/txt_avast_info"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="right" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/imageView11"
+                            android:background="@drawable/lookout_score"
+                            android:layout_marginRight="25dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="امتیاز گوگل پلی"
+                            android:id="@+id/textView2"
+                            android:layout_marginTop="5dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/btn_downloadbazar"
+                            android:layout_below="@+id/textView3"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:background="@drawable/downloadbazar"
+                            android:layout_gravity="right" />
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/btn_downloadgoogleplay"
+                            android:layout_below="@+id/btn_downloadbazar"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:background="@drawable/downloadgoogleplay"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="22dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zaferani.androidsecurity.androidsecurity">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.zaferani.androidsecurity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zaferani.androidsecurity.WhatIsVirus"
+            android:label="@string/title_activity_what_is_virus" />
+        <activity
+            android:name="com.zaferani.androidsecurity.ImportentTricks"
+            android:label="@string/title_activity_iportent_tricks" />
+        <activity
+            android:name="com.zaferani.androidsecurity.VirusTypes"
+            android:label="@string/title_activity_virus_types" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Permissions"
+            android:label="@string/title_activity_permissions" />
+        <activity
+            android:name="com.zaferani.androidsecurity.AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Exit"
+            android:label="@string/title_activity_exit" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Intro"
+            android:label="@string/title_activity_intro" />
+        <activity
+            android:name="com.zaferani.androidsecurity.OtherApps"
+            android:label="@string/title_activity_other_apps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Antivirus"
+            android:label="@string/title_activity_antiviruses"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Firewalls"
+            android:label="@string/title_activity_firewalls"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Avast"
+            android:label="@string/title_activity_avast" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Software"
+            android:label="@string/title_activity_software"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Bitdefender"
+            android:label="@string/title_activity_bitdefender"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Kaspersky"
+            android:label="@string/title_activity_kaspersky"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Avg"
+            android:label="@string/title_activity_avg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Lookout"
+            android:label="@string/title_activity_lookout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Symantec"
+            android:label="@string/title_activity_symantec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Drweb"
+            android:label="@string/title_activity_drweb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Eset"
+            android:label="@string/title_activity_eset"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Trustgo"
+            android:label="@string/title_activity_trustgo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Zoner"
+            android:label="@string/title_activity_zoner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.Avira"
+            android:label="@string/title_activity_avira"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.A360"
+            android:label="@string/title_activity_a360"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zaferani.androidsecurity.reviews.Avast_review"
+            android:label="@string/title_activity_avast_review" />
+
+    </application>
+
+</manifest>
